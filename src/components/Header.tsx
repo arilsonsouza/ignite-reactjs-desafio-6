@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { Flex, Box, Image } from '@chakra-ui/react';
 import { ChevronLeftIcon } from '@chakra-ui/icons';
 
-const Header = (): JSX.Element => {
+export const Header = (): JSX.Element => {
   const { asPath } = useRouter();
 
   const isHomePage = asPath === '/';
@@ -28,5 +28,3 @@ const Header = (): JSX.Element => {
     </Flex>
   );
 };
-
-export default Header;
