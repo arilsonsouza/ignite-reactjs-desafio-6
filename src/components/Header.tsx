@@ -24,7 +24,7 @@ export const Header = (): JSX.Element => {
           </Link>
         </Box>}
 
-      <Image margin="0 auto" src="logo.svg" w="180px" h="40px" alt="Logo" />
+      <Image margin="0 auto" src="/logo.svg" w="180px" h="40px" alt="Logo" />
     </Flex>
   );
 };
